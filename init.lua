@@ -26,4 +26,9 @@ vim.cmd([[colorscheme gruvbox]])
 
 
 -- lsp
-require("ifavila.lsp.lsp")
+-- require("ifavila.lsp.lsp")
+
+
+-- temporary
+
+require('mason').setup()

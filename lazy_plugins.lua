@@ -4,8 +4,8 @@ return {
 	},
 	{ 
 		"nvim-treesitter/nvim-treesitter",
-		{ run = ':TSUpdate' },
-		enabled = false
+		run = ':TSUpdate', 
+		-- enabled = false
 	},
 	{ "ellisonleao/gruvbox.nvim", priority = 1000 , config = true, opts = ...},
 	{
@@ -16,6 +16,9 @@ return {
 	    -- this is equalent to setup({}) function
 	},
 	{
-		require("ifavila.plugins.lsp")
+	    require('ifavila.plugins.mason')
+	},
+	{
+	--	require("ifavila.plugins.lsp")
 	},
 }
