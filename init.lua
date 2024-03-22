@@ -25,10 +25,6 @@ vim.o.background = "dark"
 vim.cmd([[colorscheme gruvbox]])
 
 
--- lsp
--- require("ifavila.lsp.lsp")
+-- config
+require("ifavila.config")
 
-
--- temporary
-
-require('mason').setup()

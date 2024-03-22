@@ -1,7 +1,5 @@
 return {
-	{
-		require("ifavila.plugins.telescope")
-	},
+	require("ifavila.plugins.telescope"),
 	{ 
 		"nvim-treesitter/nvim-treesitter",
 		run = ':TSUpdate', 
@@ -15,10 +13,7 @@ return {
 	    -- use opts = {} for passing setup options
 	    -- this is equalent to setup({}) function
 	},
-	{
-	    require('ifavila.plugins.mason')
-	},
-	{
-	--	require("ifavila.plugins.lsp")
-	},
+    require('ifavila.plugins.mason'),
+	require("ifavila.plugins.lspconfig"),
+	require("ifavila.plugins.lsp-zero")
 }
