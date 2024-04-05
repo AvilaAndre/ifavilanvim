@@ -22,7 +22,7 @@ require("lazy").setup("ifavila.lazy_plugins")
 
 -- theme
 vim.o.background = "dark"
-vim.cmd([[colorscheme gruvbox]])
+vim.cmd([[colorscheme moonfly]])
 
 
 -- config

@@ -9,5 +9,6 @@ return {
 			{"<leader>ps", "<cmd>Telescope grep_string<cr>", desc="Grep in File"},
 
 		}
-	end
+	end,
+	lazy = false
 }

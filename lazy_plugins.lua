@@ -1,7 +1,9 @@
 return {
 	require("ifavila.plugins.telescope"),
 	require("ifavila.plugins.treesitter"),
-	{ "ellisonleao/gruvbox.nvim", priority = 1000, config = true, opts = ... },
+	{ "ellisonleao/gruvbox.nvim",  priority = 1000,  config = true,  opts = ... },
+	{ "rebelot/kanagawa.nvim",     lazy = false,     priority = 1000 },
+	{ "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false,   priority = 1000 },
 	{
 		"windwp/nvim-autopairs",
 		event = "InsertEnter",
