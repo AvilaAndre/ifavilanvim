@@ -16,5 +16,6 @@ return {
 	require("ifavila.plugins.lsp-zero"),
 	require("ifavila.plugins.modicator"),
 	require("ifavila.plugins.todo-comments"),
-	require("ifavila.plugins.trouble")
+	require("ifavila.plugins.trouble"),
+	require("ifavila.plugins.gitsigns")
 }
