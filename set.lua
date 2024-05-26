@@ -18,3 +18,6 @@ vim.opt.incsearch = true
 vim.opt.scrolloff = 8
 
 vim.g.mapleader = " "
+
+vim.opt.list = true
+vim.opt.listchars = { space = '·' }
