@@ -5,6 +5,7 @@ cmp.setup({
     {name = 'nvim_lsp'},
   },
   mapping = {
+    ['<Tab>'] = cmp.mapping.confirm({select = false}),
     ['<C-y>'] = cmp.mapping.confirm({select = false}),
     ['<C-e>'] = cmp.mapping.abort(),
     ['<C-k>'] = cmp.mapping.select_prev_item({behavior = 'select'}),
