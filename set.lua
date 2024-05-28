@@ -21,3 +21,9 @@ vim.g.mapleader = " "
 
 vim.opt.list = true
 vim.opt.listchars = { space = '·', tab = '⭾ ' }
+
+vim.opt.showmode = false
+
+vim.g.lightline = {
+    colorscheme = 'moonfly'
+}
