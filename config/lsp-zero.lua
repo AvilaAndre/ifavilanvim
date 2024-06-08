@@ -1,6 +1,8 @@
 local lsp_zero = require('lsp-zero')
 
-lsp_zero.on_attach(function(client, bufnr)
+if not lsp_zero then return end
+
+lsp_zero.on_attach(function(_client, bufnr)
 	-- see :help lsp-zero-keybindings
 	-- to learn the available actions
 	lsp_zero.default_keymaps({ buffer = bufnr })
@@ -21,4 +23,3 @@ require('mason-lspconfig').setup({
 vim.diagnostic.config({
 	signs = false
 })
-
