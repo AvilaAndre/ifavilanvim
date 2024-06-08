@@ -27,3 +27,5 @@ vim.opt.showmode = false
 vim.g.lightline = {
     colorscheme = 'moonfly'
 }
+
+vim.g.moonflyTransparent = true
