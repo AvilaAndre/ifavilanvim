@@ -18,5 +18,6 @@ return {
     require("ifavila.plugins.todo-comments"),
     require("ifavila.plugins.trouble"),
     require("ifavila.plugins.gitsigns"),
-    require("ifavila.plugins.lightline")
+    require("ifavila.plugins.lightline"),
+    require("ifavila.plugins.guess-indent")
 }
