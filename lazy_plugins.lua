@@ -1,9 +1,11 @@
 return {
     require("ifavila.plugins.telescope"),
     require("ifavila.plugins.treesitter"),
-    { "ellisonleao/gruvbox.nvim",  priority = 1000,  config = true,  opts = ... },
-    { "rebelot/kanagawa.nvim",     lazy = false,     priority = 1000 },
-    { "bluz71/vim-moonfly-colors", name = "moonfly", lazy = false,   priority = 1000 },
+    { "ellisonleao/gruvbox.nvim",    priority = 1000, config = true,   opts = ... },
+    { "rebelot/kanagawa.nvim",       lazy = false,    priority = 1000 },
+    { "bluz71/vim-moonfly-colors",   lazy = false,    priority = 1000, name = "moonfly" },
+    { 'projekt0n/github-nvim-theme', lazy = false,    priority = 1000 },
+    { "rose-pine/neovim",            lazy = false,    priority = 1000, name = "rose-pine" },
     {
         "windwp/nvim-autopairs",
         event = "InsertEnter",
@@ -19,5 +21,7 @@ return {
     require("ifavila.plugins.trouble"),
     require("ifavila.plugins.gitsigns"),
     require("ifavila.plugins.lightline"),
-    require("ifavila.plugins.guess-indent")
+    require("ifavila.plugins.guess-indent"),
+    require("ifavila.plugins.markview"),
+    require("ifavila.plugins.nvim-metals")
 }
