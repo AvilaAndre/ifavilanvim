@@ -9,5 +9,15 @@ return {
             { "<leader>ps", "<cmd>Telescope grep_string<cr>", desc = "Grep in File" },
         }
     end,
+    opts = {
+        defaults = {
+            mappings = {
+                i = {
+                    ["<C-j>"] = "move_selection_next",
+                    ["<C-k>"] = "move_selection_previous",
+                },
+            },
+        },
+    },
     lazy = false
 }
