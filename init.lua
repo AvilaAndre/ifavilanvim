@@ -1,8 +1,8 @@
--- keymaps
-require("ifavila.remap")
-
 -- vim settings
 require("ifavila.set")
+
+-- keymaps
+require("ifavila.remap")
 
 -- lazy
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"

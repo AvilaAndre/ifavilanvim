@@ -24,6 +24,8 @@ vim.opt.listchars = { space = '·', tab = '⭾ ' }
 
 vim.opt.showmode = false
 
+vim.o.clipboard = 'unnamedplus'
+
 vim.g.lightline = {
     colorscheme = 'moonfly'
 }

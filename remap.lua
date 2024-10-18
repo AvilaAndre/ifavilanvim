@@ -1,1 +1,4 @@
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+local map = vim.keymap.set
+
+map("n", "<leader>e", vim.cmd.Ex)
+
