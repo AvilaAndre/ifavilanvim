@@ -31,7 +31,10 @@ require("lspconfig")["pylsp"].setup({
 				ruff = {
 					-- formatter + Linter + isort
 					enabled = true,
+					formatEnabled = true,
 					extendSelect = { "I" },
+
+					ignore = { "I001" },
 				},
 				-- formatter options
 				black = { enabled = false },
