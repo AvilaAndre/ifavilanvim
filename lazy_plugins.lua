@@ -25,6 +25,7 @@ return {
     require("ifavila.plugins.gitsigns"),
     require("ifavila.plugins.lightline"),
     require("ifavila.plugins.guess-indent"),
+    require("ifavila.plugins.dadbod"),
     -- require("ifavila.plugins.markview"),
     -- require("ifavila.plugins.nvim-metals")
 }
