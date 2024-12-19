@@ -24,4 +24,14 @@ return {
     { "nvzone/showkeys", cmd = "ShowkeysToggle" },
     -- require("ifavila.plugins.markview"),
     -- require("ifavila.plugins.nvim-metals")
+
+    {
+        dir = vim.fn.stdpath("config") .. "/lua/ifavila/custom_plugins/term-window",
+        name = "term-window",
+        config = function()
+            require("ifavila.custom_plugins.term-window").setup({
+                -- Your plugin's configuration options
+            })
+        end,
+    }
 }
