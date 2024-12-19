@@ -24,7 +24,3 @@ require("lazy").setup("ifavila.lazy_plugins")
 vim.o.background = "dark"
 vim.cmd([[colorscheme moonfly]])
 
-
--- config
-require("ifavila.config")
-

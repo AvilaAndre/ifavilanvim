@@ -1,6 +1,0 @@
-require("ifavila.config.lsp-zero")
-require("ifavila.config.cmp")
-require("ifavila.config.modicator")
-require("ifavila.config.todo-comments")
-require("ifavila.config.gitsigns")
-require("ifavila.config.guess-indent")
