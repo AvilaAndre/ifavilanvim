@@ -21,6 +21,7 @@ return {
     require("ifavila.plugins.guess-indent"),
     require("ifavila.plugins.dadbod"),
     require("ifavila.plugins.mini-files"),
+    -- require("ifavila.plugins.copilot"),
     { "nvzone/showkeys", cmd = "ShowkeysToggle" },
     -- require("ifavila.plugins.markview"),
     -- require("ifavila.plugins.nvim-metals")
