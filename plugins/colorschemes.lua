@@ -6,4 +6,5 @@ return {
 	{ "blazkowolf/gruber-darker.nvim", lazy = true,  priority = 1000 },
 	{ "rose-pine/neovim",              lazy = true,  priority = 1000, name = "rose-pine" },
 	{ "fenetikm/falcon",               lazy = true,  priority = 1000, name = "falcon" },
+	{ "RRethy/base16-nvim",            lazy = true,  priority = 1000 },
 }
