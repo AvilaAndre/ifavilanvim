@@ -60,7 +60,6 @@ local function setup(opts)
 
     vim.api.nvim_create_user_command("TermWindow", function()
         toggle_window()
-        print(state.config.height)
     end, {})
 
 
