@@ -1,8 +1,8 @@
 -- vim settings
-require("ifavila.set")
+require("ifavilanvim.set")
 
 -- keymaps
-require("ifavila.remap")
+require("ifavilanvim.remap")
 
 -- lazy
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
@@ -18,7 +18,7 @@ if not vim.loop.fs_stat(lazypath) then
 end
 vim.opt.rtp:prepend(lazypath)
 
-require("lazy").setup("ifavila.lazy_plugins")
+require("lazy").setup("ifavilanvim.lazy_plugins")
 
 -- theme
 vim.o.background = "dark"
